@@ -37,7 +37,7 @@ const BlogPostNew = () => {
                 </div>
                 {/* blog image */}
                 <div className="blog-image">
-                  <img src="images/blog/blog1.jpg" alt="" />
+                  <Image width={800} height={375} src="/images/blog/blog1.jpg" alt="" />
                 </div>
                 {/* blog content */}
                 <div className="blog-content">
@@ -144,8 +144,8 @@ const BlogPostNew = () => {
                   <li className="comment post-comment">
                     <div className="comment">
                       <div className="comment-image image">
-                        <img
-                          src="images/man1.jpg"
+                        <Image
+                          src="/images/man1.jpg"
                           className="avatar"
                           height={80}
                           width={80}
@@ -177,8 +177,8 @@ const BlogPostNew = () => {
                     <li className="comment post-comment">
                       <div className="comment">
                         <div className="comment-image image">
-                          <img
-                            src="images/man1.jpg"
+                          <Image
+                            src="/images/man1.jpg"
                             className="avatar"
                             height={80}
                             width={80}
@@ -210,8 +210,8 @@ const BlogPostNew = () => {
                   <li className="comment post-comment">
                     <div className="comment">
                       <div className="comment-image image">
-                        <img
-                          src="images/man1.jpg"
+                        <Image
+                          src="/images/man1.jpg"
                           className="avatar"
                           height={80}
                           width={80}
@@ -309,7 +309,7 @@ export const BlogPostClassic = () => {
                 <div className="blog-detail">Posted 12 June 2016</div>
                 {/* blog image */}
                 <div className="blog-image">
-                  <img src="images/blog/blog1.jpg" alt="" />
+                  <Image src="images/blog/blog1.jpg" alt="" />
                 </div>
                 {/* blog content */}
                 <div className="blog-content">
