@@ -170,75 +170,22 @@ export const ResumeSectionLawyer = () => {
           </div>
           <div className="resume-items">
             <div className="resume-item border-line-h active">
-              <div className="name">Genel Müdür Yardımcısı</div>
-              <div className="company">Çatalkaya Makina Ltd.Şti</div>
               <p>
-                Maksimum verimlilik, kalite, hizmet ve karlılığı elde etmek için
+                Danışmanlığa başlamadan önce yaklaşık 30 yıl çeşitli firmalarda
+                sırası ile mühendislik, orta düzey yöneticilik ve üst düzey
+                yöneticilik kadrolarında bulundum. Çalıştığım firmalarda
+                maksimum verimlilik, kalite, hizmet ve karlılığı elde etmek için
                 kuruluş faaliyetlerinin genel gelişimi, performansı ve
-                sürdürülmesi, kuruluşun genel performansını yönlendirmek ve
-                yabancı firmalar ile iletişim gibi startejik konuların
-                yürütülmesi.
+                sürdürülmesi, kuruluşun genel performansını yönlendirmek üzere
+                çalışmalarda bulundum. Uluslararası dev firmalarda yurt içinde
+                dışında uzunca bir süre çalıştığımdan genelde yabancı firmalar
+                ile iletişimin yürütülmesini üstlendim. Üretimin ve Ür-Ge’nin
+                içinde bir mühendis olarak süreçleri başta bizzat yürüttüm,
+                ilerleyen yıllar ile birlikte kadrolar yönettim ve nihayetinde
+                tüm tecrübelerin birleşimi ile firmaların operasyonel
+                süreçleriniden ve üst yönetiminden sorumlu oldum.
               </p>
             </div>
-            <div className="resume-item border-line-h">
-              <div className="name">Fabrika Müdürü</div>
-              <div className="company">Arma Kontrol Sistemleri Ltd.</div>
-              <p>
-                Fabrika’&rsquo;nın tüm üretim, planlama, kalite güvence, bakım
-                faaliyetleri, kalıp üretim ve Ar-Ge faaliyetleri ve İcra Kurulu
-                üyeliği.
-              </p>
-            </div>
-            <div className="resume-item">
-              <div className="name">Teknik Müdür</div>
-              <div className="company">
-                Yaparlar Tarım Ve İnşaat Malzemeleri A.Ş.
-              </div>
-              <p>
-                İstanbul ve Malatyadaki iki ayrı üretim tesisinin Teknik
-                Müdürlüğü ve İcra Kurulu üyeliği Sorumluluk sahası; tüm Üretim,
-                Planlama, Kalite Güvence, Bakım faaliyetleri, Kalıp Üretim ve
-                Ar-Ge faaliyetleri.
-              </p>
-            </div>
-            <div className="resume-item">
-              <div className="name">Genel Müdür Yardımcısı</div>
-              <div className="company">Yıldız Kalıp A.Ş.</div>
-              <p>
-                Tüm operasyonel süreçlerin ( planlama, üretim, kalite, lojistik,
-                İSG) yönetilmesinin yanında İcra Kurulu üyeliği.
-              </p>
-            </div>
-            <div className="resume-item">
-              <div className="name">Genel Müdür</div>
-              <div className="company">Tekrob A.Ş.</div>
-              <p>
-                Firmaanın sıfırdan kurulumu ve faaliyete geçirilmesi ve tüm
-                faaliyetlerin yönetilmesi.
-              </p>
-            </div>
-            <div className="resume-item">
-              <div className="name">Arge Yöneticisi</div>
-              <div className="company">Volkswagen Elektrik Sistemleri A.Ş.</div>
-              <p>
-                Geliştirme biriminin kurulması, personelin yetiştirilmesi ve
-                yönetimi, Almanya merkez ile ilişkilerin yürütlmesi.
-              </p>
-            </div>
-            <div className="resume-item">
-              <div className="name">Geliştirme Mühendisi</div>
-              <div className="company">Mercedes-Benz Türk A.Ş.</div>
-              <p>
-                Ürün geliştirme-test-onay-dökümantasyon süreçlerinin
-                yürütülmesi, tedarikci bulma ve geliştirilmesi.
-              </p>
-            </div>
-            <div className="resume-item">
-              <div className="name">Kalıphane Mühendisi</div>
-              <div className="company">Şişecam Paşabahçe Cam Sanayii A.Ş.</div>
-              <p>Kalıp tasarım - üretimi - bakımı ve personel yönetimi.</p>
-            </div>
-            
           </div>
         </div>
         {/* education */}

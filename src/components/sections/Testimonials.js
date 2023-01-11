@@ -44,7 +44,7 @@ const Testimonials = () => {
                    
                     <div className="info">
                       <div className="name">Murat Şaylan</div>
-                      <div className="company">Çatalkaya Makina - Yönetim Danışmanı</div>
+                      <div className="company">REFERANS NOKTASI PAZARLAMA ve MARKA DANIŞMANLIĞI LTD. ŞTİ. - Yönetim Danışmanı</div>
                     </div>
                     <div className="clear" />
                   </div>
@@ -92,7 +92,7 @@ const Testimonials = () => {
                     
                     <div className="info">
                       <div className="name">Oguz Torun</div>
-                      <div className="company">Reis Maakina - Servis Hizmetleri Direktörü</div>
+                      <div className="company">TürkAkım Gaz Taşıma AŞ - Procurement Manager</div>
                     </div>
                     <div className="clear" />
                   </div>

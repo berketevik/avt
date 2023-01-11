@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { useContext } from "react";
 import ActiveSection from "../src/activeSection";
 import About from "../src/components/About";
 import Blog from "../src/components/Blog";
@@ -13,7 +14,9 @@ import { ResumeSectionLawyer } from "../src/components/sections/Resume";
 import Services from "../src/components/sections/Services";
 import { SkillsLawyer } from "../src/components/sections/Skills";
 import Testimonials from "../src/components/sections/Testimonials";
+import Service from "../src/components/Service";
 import Work from "../src/components/Work";
+import Context from "../src/context/context";
 import ContentContainer from "../src/layout/ContentContainer";
 import Header from "../src/layout/Header";
 import Layout from "../src/layout/Layout";
@@ -89,12 +92,14 @@ const serviceList = [
 const headerMenus = [
   { title: "Hakkında", link: "about", icon: "icon ion-person" },
   { title: "Özgeçmiş", link: "resume", icon: "icon ion-android-list" },
-  { title: "Projeler", link: "works", icon: "icon ion-filing" },
+  { title: "Danışmanlıklar", link: "works", icon: "icon ion-filing" },
   { title: "Makaleler", link: "blog", icon: "icon ion-ios-paper" },
   { title: "İletişim", link: "contacts", icon: "icon ion-paper-airplane" },
 ];
 
 const Index = () => {
+  const { changeNav, nav, changeSideBar } = useContext(Context);
+
   return (
     <Layout>
       <Head>
@@ -111,20 +116,18 @@ const Index = () => {
           />
           {/* profile titles */}
           <div className="title">Aziz Volkan Tevik</div>
-          <div className="subtitle">Danışman</div>
+          <div className="subtitle">Makina Mühendisi</div>
+          <div className="subtitle">Yönetim Danışmanı</div>
           {/* profile socials */}
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://facebook.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/azizvolkantevik/">
               <span className="fa fa-linkedin" />
             </a>
           </div>
           {/* profile buttons */}
           <div className="lnks">
-            <a href="#" className="lnk">
-              <span className="text">Download CV</span>
-              <span className="ion ion-android-download" />
-            </a>
-            <a href="#contacts" className="lnk discover">
+
+            <a href="#contacts" className="lnk discover"  onClick={() => changeNav("contacts")}>
               <span className="text">Contact Me</span>
               <span className="ion ion-android-contact" />
             </a>
@@ -134,7 +137,6 @@ const Index = () => {
       <ContentContainer>
         <About>
           <AboutMe bio={bio} />
-          <Services serviceList={serviceList} />
           <Testimonials />
         </About>
         <Resume>
@@ -142,10 +144,10 @@ const Index = () => {
           <SkillsLawyer />
         </Resume>
         <Work>
-          <RecentWorks user={"lawyer"} />
+          <Services serviceList={serviceList} />
         </Work>
         <Blog>
-          <BlogSection />
+          <RecentWorks user={"lawyer"} />
         </Blog>
         <Contact>
           <ContactForm />

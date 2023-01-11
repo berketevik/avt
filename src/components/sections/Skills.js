@@ -366,15 +366,11 @@ export const SkillsLawyer = () => {
               <ul>
                 <li className="border-line-h">
                   <div className="name">İngilizce</div>
-                  <div className="progress">
-                    <div className="percentage" style={{ width: "90%" }} />
-                  </div>
+                  
                 </li>
                 <li className="border-line-h">
                   <div className="name">Almanca</div>
-                  <div className="progress">
-                    <div className="percentage" style={{ width: "60%" }} />
-                  </div>
+                 
                 </li>
                
               </ul>

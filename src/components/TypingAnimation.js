@@ -7,7 +7,21 @@ const TypingAnimation = ({ data }) => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: data ? data : ["Web Designer", "Developer", "Freelancer"], // Strings to display
+      strings: data
+        ? data
+        : [
+            "Üretim sistemleri kurulumu",
+            "İşletmelerde verimlilik arttırma",
+            "Stratejik Yönetim / Stratejik Planlama",
+            "Kalite",
+            "Robot Otomasyon",
+            "Yalın Üretim",
+            "Yönetim Danışmanlığı",
+            "Kurumsallaşma",
+            "Mavi Yaka / Beyaz Yaka motivasyon",
+            "ÜrGe /ArGe",
+            "ERP entegrasyonu"
+          ], // Strings to display
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,
