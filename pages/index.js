@@ -40,7 +40,7 @@ const serviceList = [
   {
     icon: "fa fa-line-chart",
     title: "İşletmelerde verimlilik arttırma",
-    desc: "Ürün ve hizmet üretimi süreçlerini verimlilik, maliyet etkinliği ve kalite optimizasyonu açılarından analizi ve bu sürçlerin optimizasyonu için algoritmalar veya modeller geliştirmek sureti ile performansı iyileştirmek üzere yeniden tasarlanması.",
+    desc: "Verimlilik maliyetleri düşürecek, dolayısıyla karlılığı artıracak en önemli silahtır ve bir ürün ya da hizmet üretmek sureti ile oluşturduğumuz değerin üretimi esnasında harcanan kaynaklarla olan ilişkisini gösterir.",
   },
   {
     icon: "fa fa-diamond",
@@ -92,7 +92,7 @@ const serviceList = [
 const headerMenus = [
   { title: "Hakkında", link: "about", icon: "icon ion-person" },
   { title: "Özgeçmiş", link: "resume", icon: "icon ion-android-list" },
-  { title: "Danışmanlıklar", link: "works", icon: "icon ion-filing" },
+  { title: "Hizmetler", link: "works", icon: "icon ion-filing" },
   { title: "Makaleler", link: "blog", icon: "icon ion-ios-paper" },
   { title: "İletişim", link: "contacts", icon: "icon ion-paper-airplane" },
 ];
@@ -120,15 +120,22 @@ const Index = () => {
           <div className="subtitle">Yönetim Danışmanı</div>
           {/* profile socials */}
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/azizvolkantevik/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/azizvolkantevik/"
+            >
               <span className="fa fa-linkedin" />
             </a>
           </div>
           {/* profile buttons */}
           <div className="lnks">
-
-            <a href="#contacts" className="lnk discover"  onClick={() => changeNav("contacts")}>
-              <span className="text">Contact Me</span>
+            <a
+              href="#contacts"
+              className="lnk discover"
+              onClick={() => changeNav("contacts")}
+            >
+              <span className="text">Mesaj Yaz</span>
               <span className="ion ion-android-contact" />
             </a>
           </div>
