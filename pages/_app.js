@@ -10,7 +10,9 @@ import "../public/css/ionicons.css";
 import "../public/css/magnific-popup.css";
 import "../public/css/animate.css";
 import "../public/css/gradient.css";
-import  "../public/css/new-skin/new-skin.css";
+import { Analytics } from "@vercel/analytics/react";
+
+import "../public/css/new-skin/new-skin.css";
 import "../public/css/demos/demo-6-colors.css";
 
 function MyApp({ Component, pageProps }) {
@@ -34,6 +36,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <PreLoader />
       <Component {...pageProps} />
+      <Analytics />
     </State>
   );
 }
