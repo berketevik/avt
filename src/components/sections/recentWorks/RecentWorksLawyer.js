@@ -111,7 +111,7 @@ const RecentWorksLawyer = () => {
             <div className="box-item">
               <div className="image">
                 <a href="#popup-1" className="has-popup-media">
-                  <img src="images/kurum.jpg" alt="" />
+                  <img src="images/meeting.png" alt="" />
                   <span className="info">
                     <span className="ion ion-images" />
                   </span>
@@ -119,7 +119,7 @@ const RecentWorksLawyer = () => {
                 <div id="popup-1" className="popup-box mfp-fade mfp-hide">
                   <div className="content">
                     <div className="image">
-                      <img src="images/kurum.jpg" alt="" />
+                      <img src="images/meeting.png" alt="" />
                     </div>
                     <div className="desc">
                       <div className="post-box">
