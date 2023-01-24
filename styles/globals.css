@@ -54,6 +54,15 @@ img.mfp-img {
 .mfp-wrap {
   position: unset;
 }
+@media (max-width: 720px) {
+  .content_popup_warp.mfp-wrap.popup-box-inline {
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%) !important;
+  }
+}
 .content_popup_warp.mfp-wrap.popup-box-inline {
   margin: auto;
   position: fixed;
